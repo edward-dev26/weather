@@ -1,4 +1,5 @@
 const config = {
+    PORT: process.env.PORT || 3000,
     WEATHER_URL: 'http://api.weatherstack.com/',
     WEATHER_API_KEY: 'e856fb7b99b6d002924cd8082a8ea2c1',
     GEOCODING_URL: 'https://api.mapbox.com/geocoding/v5/',
